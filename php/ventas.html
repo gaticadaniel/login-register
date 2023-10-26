@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Venta</title>
+</head>
+<body>
+    <h2>Formulario de Venta</h2>
+    <form action="/php/procesar_venta.php" method="post">
+        <label for="nombre_producto">Nombre del Producto:</label>
+        <input type="text" name="nombre_producto" required>
+        
+        <label for="precio">Precio:</label>
+        <input type="number" name="precio" required>
+        
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" name="cantidad" required>
+        
+        <input type="submit" value="Realizar Venta">
+    </form>
+</body>
+</html>
